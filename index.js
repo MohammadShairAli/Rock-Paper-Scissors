@@ -108,7 +108,7 @@ function reset(){
     btn_scissors.disabled = false;
     playerchoosed = "";
 }
-                                                        // On clicking the buttons for rock, paper and scissors for player
+
 btn_rock.onclick = ()=>{
     playerchoosed = "rock";
     disableButtons()
